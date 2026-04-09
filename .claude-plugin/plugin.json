@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "saas-pm-ceo-auditor",
+  "description": "SaaS launch-readiness auditor skill for architecture, product, security, billing, and go-live planning.",
+  "owner": {
+    "name": "Gustavo Czar",
+    "url": "https://github.com/gustavczar"
+  },
+  "plugins": [
+    {
+      "name": "saas-pm-ceo-auditor",
+      "description": "Executive + technical SaaS readiness auditor.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

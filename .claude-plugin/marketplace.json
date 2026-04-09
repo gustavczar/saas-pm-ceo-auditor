@@ -1,0 +1,8 @@
+{
+  "name": "saas-pm-ceo-auditor",
+  "description": "SaaS launch-readiness auditor skill with executive and technical diagnostics.",
+  "author": {
+    "name": "Gustavo Czar",
+    "url": "https://github.com/gustavczar"
+  }
+}

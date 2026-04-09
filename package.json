@@ -1,0 +1,36 @@
+{
+  "name": "saas-pm-ceo-auditor-skill",
+  "version": "1.0.0",
+  "description": "Cross-agent SaaS launch-readiness auditor skill",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavczar/saas-pm-ceo-auditor.git"
+  },
+  "homepage": "https://github.com/gustavczar/saas-pm-ceo-auditor#readme",
+  "bugs": {
+    "url": "https://github.com/gustavczar/saas-pm-ceo-auditor/issues"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.cjs"
+  },
+  "files": [
+    "skills",
+    ".claude-plugin",
+    "README.md",
+    "scripts"
+  ],
+  "keywords": [
+    "agent-skill",
+    "skills",
+    "claude",
+    "gemini",
+    "github-copilot",
+    "saas",
+    "auditor"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
