@@ -1,6 +1,6 @@
 {
   "name": "saas-pm-ceo-auditor-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-agent SaaS launch-readiness auditor skill",
   "license": "MIT",
   "private": false,

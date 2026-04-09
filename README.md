@@ -51,23 +51,6 @@ If needed, run manual sync:
 npx -y skills experimental_sync -a '*' -y
 ```
 
-### Publish your own npm release
-
-```bash
-npm login
-npm publish --access public
-```
-
-> If you use a scoped package (recommended), update `name` in `package.json`, for example: `@your-user/saas-pm-ceo-auditor`.
-
-### Make it discoverable on skills.sh
-
-1. Keep this repository public.
-2. Keep at least one valid `SKILL.md` with `name` and `description`.
-3. Push to GitHub.
-4. Install at least once with `npx skills add ...`.
-5. Search on https://skills.sh (indexing may take a short time).
-
 ---
 
 ## Portugues (Brasil)
@@ -116,23 +99,6 @@ Se precisar, rode sincronizacao manual:
 ```bash
 npx -y skills experimental_sync -a '*' -y
 ```
-
-### Publicar sua versao no npm
-
-```bash
-npm login
-npm publish --access public
-```
-
-> Se usar pacote com escopo (recomendado), ajuste `name` no `package.json`, por exemplo: `@seu-user/saas-pm-ceo-auditor`.
-
-### Como aparecer no skills.sh
-
-1. Mantenha este repositorio publico.
-2. Mantenha pelo menos um `SKILL.md` valido com `name` e `description`.
-3. Faça push no GitHub.
-4. Faça pelo menos uma instalacao com `npx skills add ...`.
-5. Pesquise em https://skills.sh (a indexacao pode levar um pequeno tempo).
 
 ---
 
